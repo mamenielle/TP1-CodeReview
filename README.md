@@ -7,5 +7,5 @@ Nous avons également un dossier `test` dans `src`.
 
 ## Checkstyle 
 
-Nous avons utiliser le style `intellij-java-google-style` pour définir le style du projet.
+Nous avons utiliser le style `checkstyle.xml` du projet Redscan pour définir le style du projet.
 

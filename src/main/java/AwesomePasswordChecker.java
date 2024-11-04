@@ -122,6 +122,7 @@ public class AwesomePasswordChecker {
     return Math.sqrt(sum);
   }
 
+  
   public static String ComputeMD5(String input) {
     byte[] message = input.getBytes();
     int messageLenBytes = message.length;
