@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+    <reporting>
+        <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.6.0</version>
+            <configuration>
+                <configLocation>intellij-java-google-style.xml</configLocation>
+            </configuration>
+            <reportSets>
+            <reportSet>
+                <reports>
+                <report>checkstyle</report>
+                </reports>
+            </reportSet>
+            </reportSets>
+        </plugin>
+        </plugins>
+    </reporting>
+
+</project>
