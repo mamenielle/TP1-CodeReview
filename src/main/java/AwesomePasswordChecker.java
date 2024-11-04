@@ -26,7 +26,7 @@ public class AwesomePasswordChecker {
   
   public static AwesomePasswordChecker getInstance() throws IOException {
     if (instance == null) {
-      InputStream is = AwesomePasswordChecker.class.getClassLoader().getResourceAsStream("cluster_centers_HAC_aff.csv");
+      InputStream is = AwesomePasswordChecker.class.getClassLoader().getResourceAsStream("../ressources/cluster_centers_HAC_aff.csv");
       instance = new AwesomePasswordChecker(is);
     }
       return instance;
